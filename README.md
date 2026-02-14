@@ -16,6 +16,6 @@ Site vitrine fictif réalisé en React + Tailwind CSS.
 - Tailwind CSS v4
 - Lucide Icons
 
-## ⚠️ Disclaimer
+--
 
 Projet fictif réalisé à des fins de portfolio.
