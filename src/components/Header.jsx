@@ -1,3 +1,4 @@
+import obsidianLogo from "../assets/obsidian-logo.png";
 import Container from "./Container";
 
 const NavLink = ({ href, children }) => (
@@ -16,15 +17,12 @@ export default function Header() {
         <div className="flex items-center gap-4">
           {/* Brand */}
           <a href="#top" className="flex items-center gap-3 shrink-0">
-            <div className="h-9 w-9 rounded-xl border border-white/10 bg-white/5" />
-            <div className="leading-tight">
-              <p className="text-sm font-semibold tracking-wide whitespace-nowrap">
-                Obsidian Ink
-              </p>
-              <p className="text-xs text-zinc-400 whitespace-nowrap">
-                Tattoo Studio • Nancy
-              </p>
-            </div>
+            <img
+              src={obsidianLogo}
+              alt="Obsidian Ink Logo"
+              className="h-10 w-auto object-contain select-none"
+              draggable="false"
+            />
           </a>
 
           {/* Nav */}
@@ -32,6 +30,7 @@ export default function Header() {
             <NavLink href="#expertises">Expertises</NavLink>
             <NavLink href="#galerie">Galerie</NavLink>
             <NavLink href="#apropos">À propos</NavLink>
+            <NavLink href="#process">Process / RDV</NavLink>
             <NavLink href="#faq">FAQ</NavLink>
             <NavLink href="#contact">Contact</NavLink>
           </nav>
@@ -41,7 +40,7 @@ export default function Header() {
             href="#contact"
             className="shrink-0 rounded-2xl bg-white px-4 py-2 text-sm font-semibold text-zinc-950 hover:bg-zinc-200 transition"
           >
-            Réserver
+            Prendre RDV
           </a>
         </div>
       </Container>
