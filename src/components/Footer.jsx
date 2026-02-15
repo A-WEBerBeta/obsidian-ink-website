@@ -23,49 +23,43 @@ export default function Footer() {
           </div>
 
           {/* Nav */}
-          <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
+          <nav className="flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-2 text-sm">
             <a
               href="#expertises"
               className="text-zinc-400 hover:text-white transition"
             >
               Expertises
             </a>
-
             <a
               href="#galerie"
               className="text-zinc-400 hover:text-white transition"
             >
               Galerie
             </a>
-
             <a
               href="#apropos"
               className="text-zinc-400 hover:text-white transition"
             >
               À propos
             </a>
-
             <a
               href="#process"
               className="text-zinc-400 hover:text-white transition"
             >
               RDV
             </a>
-
             <a
               href="#faq"
               className="text-zinc-400 hover:text-white transition"
             >
               FAQ
             </a>
-
             <a
               href="#contact"
               className="text-zinc-400 hover:text-white transition"
             >
               Contact
             </a>
-
             <a
               href="#top"
               className="text-zinc-400 hover:text-white transition"
